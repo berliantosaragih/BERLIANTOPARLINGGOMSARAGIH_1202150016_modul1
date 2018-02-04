@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.linggom.berliantoparlinggomsaragih_1202150016_modul1.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makan Malam"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tempat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textViewMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+
+        />
+
+    <TextView
+        android:id="@+id/menumakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/textcolor7"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/textporsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porsi"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp" />
+    <TextView
+        android:id="@+id/jumlahporsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/textcolor6"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/jumlahharga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"  />
+
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/textcolor5"
+        android:textSize="25sp"/>
+</LinearLayout>
